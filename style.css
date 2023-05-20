@@ -288,6 +288,13 @@ main {
     margin-left: 1rem;
 }
 
+@media screen and (max-width: 576px) {
+    .single-genre:first-child {
+        margin-left: 0.25rem;
+    }
+}
+
+
 .single-genre:nth-child(even):hover {
     color: var(--red);
     border: 1px solid var(--red);
