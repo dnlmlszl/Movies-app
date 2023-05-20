@@ -1,0 +1,1 @@
+Beautiful Movies App Project with modal, grid layout and many features to practice for FE class.
