@@ -292,7 +292,9 @@ main {
     white-space: nowrap;
 }
 
-
+.single-genre:first-child {
+    margin-left: 5px;
+}
 
 .single-genre:nth-child(even):hover {
     color: var(--red);
