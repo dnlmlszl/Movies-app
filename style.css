@@ -53,7 +53,7 @@ header h1 {
     background: var(--primary-color);
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 614px) {
     header {
         flex-direction: column;
         justify-content: center;
@@ -214,6 +214,9 @@ main {
     .modal-container {
         width: 80vw;
     }
+    .close-btn {
+        right: 0.75rem;
+    }
 }
 
 .modal-layout {
@@ -228,6 +231,7 @@ main {
     letter-spacing: 0.95px;
     text-align: left;
     margin-left: 1rem;
+    margin-top: 2.5rem;
 }
 
 .modal-wrapper {
@@ -246,13 +250,16 @@ main {
     margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 614px) {
     .modal-wrapper {
         grid-template-columns: 1fr;
     }
     .modal-wrapper .modal-img {
         width: 90%;
         margin: 1rem;
+    }
+    .modal-title {
+        margin-top: 3rem;
     }
 }
 
@@ -282,17 +289,9 @@ main {
     margin: 0.25rem;
     line-height: 2.5;
     transition: all 0.3s linear;
+    white-space: nowrap;
 }
 
-.single-genre:first-child {
-    margin-left: 1rem;
-}
-
-@media screen and (max-width: 576px) {
-    .single-genre:first-child {
-        margin-left: 0.25rem;
-    }
-}
 
 
 .single-genre:nth-child(even):hover {
@@ -322,4 +321,11 @@ main {
     color: var(--tertiary-color);
     margin: 2rem 0 1.5rem;
     letter-spacing: 1.15px;
+}
+
+@media screen and (max-width: 614px) {
+    .details {
+        width: 90%;
+        margin: 1rem;
+    }
 }
